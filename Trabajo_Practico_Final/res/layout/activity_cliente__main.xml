@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperseis"
+    tools:context=".Cliente_MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="DilioSoft" />
+
+    <EditText
+        android:id="@+id/editTextNumeroCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Ingrese numero Cliente"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumeroCliente"
+        android:layout_centerHorizontal="true"
+        android:onClick="ingresar"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="salir"
+        android:text="Salir" />
+
+</RelativeLayout>

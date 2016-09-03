@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperdos"
+    tools:context=".Cambio_MainActivity" >
+
+    <Button
+        android:id="@+id/buttonBorrarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCargarCambio"
+        android:layout_below="@+id/buttonCargarCambio"
+        android:layout_marginTop="20dp"
+        android:onClick="borrar"
+        android:text="Borrar" />
+
+    <TextView
+        android:id="@+id/textViewCantidadProductoCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTituloProductoCambio"
+        android:layout_below="@+id/textViewTituloProductoCambio"
+        android:layout_marginTop="53dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewTituloProductoCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonUnidadCambio"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCargarCambio"
+        android:layout_centerHorizontal="true"
+        android:onClick="aumentarU"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonDecenaCambio"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCantidadProductoCambio"
+        android:layout_marginTop="59dp"
+        android:layout_toLeftOf="@+id/buttonUnidadCambio"
+        android:onClick="aumentarD"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonCargarCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/buttonUnidadCambio"
+        android:layout_below="@+id/buttonDecenaCambio"
+        android:layout_marginTop="27dp"
+        android:onClick="modificar"
+        android:text="cargar" />
+
+</RelativeLayout>

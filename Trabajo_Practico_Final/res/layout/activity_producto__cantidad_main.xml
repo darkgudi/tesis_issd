@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperres"
+    tools:context=".Producto_CantidadMainActivity" >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:onClick="volver"
+        android:text="volver" />
+
+    <TextView
+        android:id="@+id/titulo_Producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="33dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:onClick="cargar"
+        android:text="cargar" />
+
+    <Button
+        android:id="@+id/decena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button4"
+        android:layout_below="@+id/titulo_Producto"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="42dp"
+        android:onClick="aumentarD"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/unidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/decena"
+        android:layout_alignBottom="@+id/decena"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_marginLeft="34dp"
+        android:onClick="aumentarU"
+        android:text="0" />
+
+</RelativeLayout>

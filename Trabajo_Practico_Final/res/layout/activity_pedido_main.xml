@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA5858"
+    tools:context=".PedidoMainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/cocaZero"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logococazero"
+                android:onClick="detalleProducto_cocaZero" />
+
+            <Button
+                android:id="@+id/coca"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logococa"
+                android:onClick="detalleProducto_coca" />
+
+            <Button
+                android:id="@+id/cocalight"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logococalight" 
+                android:onClick="detalleProducto_cocalight" />
+
+            <Button
+                android:id="@+id/cocalife"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logococalife"
+                android:onClick="detalleProducto_cocalife" />
+
+            <Button
+                android:id="@+id/acuarius"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logoacuaqius"
+                android:onClick="detalleProducto_aquarius" />
+
+            <Button
+                android:id="@+id/bonaqua"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logobonaqua"
+                android:onClick="detalleProducto_bonaqua" />
+
+            <Button
+                android:id="@+id/cepita"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logocepita"
+                android:onClick="detalleProducto_cepita" />
+
+            <Button
+                android:id="@+id/crush"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logocrush"
+                android:onClick="detalleProducto_crush" />
+
+            <Button
+                android:id="@+id/fantalimon"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logofantalimon"
+                android:onClick="detalleProducto_fantalimon" />
+
+            <Button
+                android:id="@+id/fantanaranja"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logofantanaranja"
+                android:onClick="detalleProducto_fantanaranja" />
+
+            <Button
+                android:id="@+id/fantapomelo"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logofantapomelo01"
+                android:onClick="detalleProducto_fantapomelo" />
+
+            <Button
+                android:id="@+id/fantazero"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logofantazero"
+                android:onClick="detalleProducto_fantanaranjazero" />
+
+            <Button
+                android:id="@+id/fuzetea"
+              android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logofuzetea"
+                android:onClick="detalleProducto_fuzetea" />
+
+            <Button
+                android:id="@+id/powerade"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logopowerade"
+                android:onClick="detalleProducto_powerade" />
+
+            <Button
+                android:id="@+id/schweppes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logoschweppes"
+                android:onClick="detalleProducto_schweppes" />
+
+            <Button
+                android:id="@+id/sprite"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logosprite"
+                android:onClick="detalleProducto_sprite" />
+
+            <Button
+                android:id="@+id/spritezero"
+               android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logospritezero"
+                android:onClick="detalleProducto_spritezero" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:onClick="volver"
+        android:text="Volver" />
+
+    <Button
+        android:id="@+id/mostrarLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:onClick="mostrarLista"
+        android:text="Mostar Lista" />
+
+</RelativeLayout>

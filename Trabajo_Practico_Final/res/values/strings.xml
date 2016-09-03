@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trabajo_Practico_Final</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_cliente_main">ClienteMainActivity</string>
+    <string name="title_activity_cliente__main">Cliente_MainActivity</string>
+    <string name="title_activity_nuevo__cliente_main">Nuevo_ClienteMainActivity</string>
+    <string name="title_activity_pedido_main">PedidoMainActivity</string>
+    <string name="title_activity_codigo__cliente_main">Codigo_ClienteMainActivity</string>
+    <string name="title_activity_detalle__producto_main">Detalle_ProductoMainActivity</string>
+    <string name="title_activity_producto__cantidad_main">Producto_CantidadMainActivity</string>
+    <string name="title_activity_lista_final__main">ListaFinal_MainActivity</string>
+    <string name="title_activity_cambio__main">Cambio_MainActivity</string>
+
+</resources>

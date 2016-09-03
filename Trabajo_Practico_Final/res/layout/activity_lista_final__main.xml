@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperuno"
+    tools:context=".ListaFinal_MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewTituloControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Numero de Cliente:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listViewListaFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonVolver01"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTituloControl" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonVolver01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="volver"
+        android:text="volver" />
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listViewListaFinal"
+        android:onClick="enviar"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/textViewNumeroClienteListaFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listViewListaFinal"
+        android:layout_alignParentRight="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="inicio"
+        android:text="Ir a Inicio" />
+
+</RelativeLayout>
