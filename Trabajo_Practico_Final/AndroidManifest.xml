@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trabajo_practico_final"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.trabajo_practico_final.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.ClienteMainActivity"
+            android:label="@string/title_activity_cliente_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Cliente_MainActivity"
+            android:label="@string/title_activity_cliente__main" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Nuevo_ClienteMainActivity"
+            android:label="@string/title_activity_nuevo__cliente_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.PedidoMainActivity"
+            android:label="@string/title_activity_pedido_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Codigo_ClienteMainActivity"
+            android:label="@string/title_activity_codigo__cliente_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Detalle_ProductoMainActivity"
+            android:label="@string/title_activity_detalle__producto_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Producto_CantidadMainActivity"
+            android:label="@string/title_activity_producto__cantidad_main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.ListaFinal_MainActivity"
+            android:label="@string/title_activity_lista_final__main" >
+        </activity>
+        <activity
+            android:name="com.example.trabajo_practico_final.Cambio_MainActivity"
+            android:label="@string/title_activity_cambio__main" >
+        </activity>
+    </application>
+
+</manifest>
