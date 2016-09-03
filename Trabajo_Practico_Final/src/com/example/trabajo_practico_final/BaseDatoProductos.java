@@ -10,7 +10,6 @@ public class BaseDatoProductos extends SQLiteOpenHelper {
 	public BaseDatoProductos(Context context, String name,
 			CursorFactory factory, int version) {
 		super(context, name, factory, version);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
